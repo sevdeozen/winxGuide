@@ -1,0 +1,128 @@
+@import url('https://fonts.googleapis.com/css2?family=Sniglet&display=swap');
+body{
+    font-family: 'Sniglet', cursive;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    background-image: linear-gradient(to right, #cf9fe0, #ed8ab0,#8efad8 );
+}
+h1{
+    color: #fff;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+    text-shadow: 4px 3px 6px rgba(0, 0, 0, 1);
+    
+}
+
+.search{
+    position: relative;
+}
+
+.searchInput{
+    font-family: inherit;
+    background-color: #fff;
+    border: none;
+    font-size: 16px;
+    padding: 12px;
+    height: 16px;
+    width: 15px;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: width 0.3s ease;
+
+}
+
+.searchInput,.searchBtn:focus {
+    outline: none;
+}
+
+.searchBtn{
+    background-color: #a7e8e3 ;
+    border: none;
+    color: rgb(53, 47, 47);
+    font-size: 34px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+
+}
+
+.search.active .searchInput{
+    width: 200px;
+    background-color: #fff;
+}
+
+.search.active .searchBtn{
+    transform: translateX(198px);
+    
+}
+
+.winxContainer{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    max-width: 85%;
+    
+}
+
+.winx{
+    margin: 20px;
+    padding: 20px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    color: black;
+    border-radius: 10px;
+    border: 5px solid;
+    border-image: linear-gradient(to bottom,#f7f600,#b4a7e0,#eda56d,#8efad8,#e1e06d,#fe5696) 10;
+
+}
+
+.imgContainer{
+    background-color: rgba(0, 0, 0, 0.09);
+    border-radius: 75% 30% 70% 40% / 60% 40% 70% 40%;
+    margin-bottom: 10px;
+}
+
+.imgContainer img{
+    width: 100px;
+    height: 100px;
+    opacity: 0.75;
+    transition: all 0.3s ease;
+}
+
+.winx:hover .imgContainer img{
+    opacity: 1;
+    transform: scale(1.15);
+}
+
+.pokeInfo{
+    margin-top: 20px ;
+}
+
+.winxId{
+    background-color:rgba(0, 0, 0, 0.06);
+    border-radius: 3rem;
+    padding: 5px 10px;
+    font-size: 0.85rem;
+}
+
+.winxName{
+    letter-spacing: 2px;
+    margin: 15px 0 10px;
+    text-transform: capitalize;
+}
+
+.small small{
+    padding: 0 5px;
+
+}
+
+.winxType{
+    margin-top: 10px;
+}

@@ -1,0 +1,109 @@
+{
+    "winx":[
+        {
+           "name": "bloom",
+           "experience":1000,
+           "image":"./img/1.png",
+           "color":" dragonFlame",
+            "id": 1
+            
+        },
+
+        {
+            "name": "stella",
+            "experience":800,
+            "image":"./img/2.png",
+            "color":"sunlight",
+            "id": 2
+             
+         },
+
+         {
+            "name": "flora",
+            "experience":700,
+            "image":"./img/3.png",
+            "color":"flower",
+            "id": 3
+             
+         },
+
+         {
+            "name": "aisha",
+            "experience":400,
+            "image":"./img/4.png",
+            "color":"liquid",
+            "id": 4
+             
+         },
+         {
+            "name": "tecna",
+            "experience":600,
+            "image":"./img/5.png",
+            "color":"technology",
+            "id": 5
+             
+         },
+         {
+            "name": "musa",
+            "experience":600,
+            "image":"./img/6.png",
+            "color":"music",
+            "id": 6
+         },
+
+         {
+            "name": "roxy",
+            "experience":500,
+            "image":"./img/7.png",
+            "color":"animal",
+            "id": 7
+             
+         },
+
+         {
+            "name": "sky",
+            "experience":900,
+            "image":"./img/8.png",
+            "color":"king",
+            "id": 8
+             
+         },
+
+         {
+            "name": "brandon",
+            "experience":800,
+            "image":"./img/9.png",
+            "color":"strong",
+            "id": 9
+             
+         },
+
+         {
+            "name": "riven",
+            "experience":700,
+            "image":"./img/10.png",
+            "color":"fighter",
+            "id": 10
+             
+         },
+
+         {
+            "name": "timmy",
+            "experience":700,
+            "image":"./img/11.png",
+            "color":"smart",
+            "id": 11
+             
+         },
+
+         {
+            "name": "trix",
+            "experience":700,
+            "image":"./img/12.png",
+            "color":"witches",
+            "id": 12
+             
+         }
+
+    ]
+}
